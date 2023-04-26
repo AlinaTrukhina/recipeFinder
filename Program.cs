@@ -1,7 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using recipeFinder.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<RazorPagesRecipeContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("RazorPagesRecipeContext") ?? throw new InvalidOperationException("Connection string 'RazorPagesRecipeContext' not found.")));
 
 var app = builder.Build();
 
