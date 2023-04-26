@@ -28,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/alinatrukhina/Documents/post-prime/recipeFinder/Pages/Recipes/ByIngredient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVjaXBlcy9CeUluZ3JlZGllbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/alinatrukhina/Documents/post-prime/recipeFinder/Pages/Recipes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVjaXBlcy9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
