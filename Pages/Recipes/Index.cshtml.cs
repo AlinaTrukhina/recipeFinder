@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using recipeFinder.Data;
 using recipeFinder.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace recipeFinder.Pages.Recipes
 {
@@ -21,12 +22,25 @@ namespace recipeFinder.Pages.Recipes
 
         public IList<Recipe> Recipe { get;set; } = default!;
 
+        [BindProperty(SupportsGet = true)]
+        public string? SearchString { get; set; }
+
+        public SelectList? Title { get; set; }
+
+        [BindProperty(SupportsGet = true)]
+        public string? RecipeTitle { get; set; }
+
         public async Task OnGetAsync()
         {
-            if (_context.Recipe != null)
+            var recipes = from r in _context.Recipe
+                            select r;
+                
+            if (!string.IsNullOrEmpty(SearchString))
             {
-                Recipe = await _context.Recipe.ToListAsync();
+                recipes = recipes.Where(s => s.Title.Contains(SearchString));
             }
+
+            Recipe = await recipes.ToListAsync();
         }
     }
 }

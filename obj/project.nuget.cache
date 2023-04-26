@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "maB8s5xQSeS+F3pkehSBowAJhU006ArHtOSuUI9BTBi9t31JT7eZjRiGTRcLXhYX8nVZRe8XZlhcgbKZnwGuVg==",
+  "dgSpecHash": "mn/cKK+mdQzSIK4VVhwQFGxkLpud4duOBeBbk+sERgQbIULAvJYXPzDGroVAKhWkKoJ+A5IgY2+Zq3Hnb5FOSg==",
   "success": true,
   "projectFilePath": "/Users/alinatrukhina/Documents/post-prime/recipeFinder/recipeFinder.csproj",
   "expectedPackageFiles": [
     "/Users/alinatrukhina/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/alinatrukhina/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
     "/Users/alinatrukhina/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/alinatrukhina/.nuget/packages/microsoft.aspnetcore.diagnostics.entityframeworkcore/7.0.5/microsoft.aspnetcore.diagnostics.entityframeworkcore.7.0.5.nupkg.sha512",
     "/Users/alinatrukhina/.nuget/packages/microsoft.aspnetcore.razor.language/6.0.11/microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "/Users/alinatrukhina/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/Users/alinatrukhina/.nuget/packages/microsoft.build/17.3.2/microsoft.build.17.3.2.nupkg.sha512",
@@ -37,6 +38,7 @@
     "/Users/alinatrukhina/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.5/microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
     "/Users/alinatrukhina/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.5/microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",
     "/Users/alinatrukhina/.nuget/packages/microsoft.entityframeworkcore.design/7.0.5/microsoft.entityframeworkcore.design.7.0.5.nupkg.sha512",
+    "/Users/alinatrukhina/.nuget/packages/microsoft.entityframeworkcore.inmemory/7.0.5/microsoft.entityframeworkcore.inmemory.7.0.5.nupkg.sha512",
     "/Users/alinatrukhina/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.5/microsoft.entityframeworkcore.relational.7.0.5.nupkg.sha512",
     "/Users/alinatrukhina/.nuget/packages/microsoft.entityframeworkcore.sqlite/7.0.5/microsoft.entityframeworkcore.sqlite.7.0.5.nupkg.sha512",
     "/Users/alinatrukhina/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/7.0.5/microsoft.entityframeworkcore.sqlite.core.7.0.5.nupkg.sha512",

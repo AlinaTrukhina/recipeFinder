@@ -1,4 +1,4 @@
-@page
+@page "{id:int?}"
 @model recipeFinder.Pages.Recipes.DetailsModel
 
 @{
@@ -28,6 +28,12 @@
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Recipe.ImgUrl)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Recipe.Ingredients)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Recipe.Ingredients)
         </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Recipe.Instructions)

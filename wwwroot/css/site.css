@@ -20,3 +20,7 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.recipe-list-img {
+  max-width: 20%;
+}

@@ -301,3 +301,5 @@
 /Users/alinatrukhina/Documents/post-prime/recipeFinder/obj/Debug/net7.0/recipeFinder.pdb
 /Users/alinatrukhina/Documents/post-prime/recipeFinder/obj/Debug/net7.0/recipeFinder.genruntimeconfig.cache
 /Users/alinatrukhina/Documents/post-prime/recipeFinder/obj/Debug/net7.0/ref/recipeFinder.dll
+/Users/alinatrukhina/Documents/post-prime/recipeFinder/bin/Debug/net7.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+/Users/alinatrukhina/Documents/post-prime/recipeFinder/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.InMemory.dll
